@@ -2,4 +2,6 @@ package foo
 
 import "os"
 
-os.Stderr.WriteString("your message here")
+func main() {
+	os.Stderr.WriteString("your message here")
+}
