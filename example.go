@@ -1,3 +1,7 @@
+package foo
+
 import "fmt"
 
-fmt.Println("-----TEST------")
+func main() {
+	fmt.Println("GOT HERE")
+}
