@@ -3,5 +3,5 @@ package foo
 import "os"
 
 func main() {
-	os.Stderr.WriteString("your message here")
+	os.Stderr.WriteString("your here")
 }
