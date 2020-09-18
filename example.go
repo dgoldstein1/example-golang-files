@@ -1,7 +1,5 @@
 package foo
 
-import "fmt"
+import "os"
 
-func main() {
-	fmt.Println("hello from github")
-}
+os.Stderr.WriteString("your message here")
