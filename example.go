@@ -1,7 +1,7 @@
 package foo
 
-import "os"
+import "fmt"
 
 func main() {
-	os.Stderr.WriteString("your here")
+	fmt.Println("hello from github")
 }
