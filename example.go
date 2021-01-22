@@ -1,7 +1,3 @@
-package foo
-
 import "fmt"
 
-func main() {
-	fmt.Println("hello from github")
-}
+fmt.Println("hello from github")
